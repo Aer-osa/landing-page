@@ -1,27 +1,10 @@
-/*:root{
- color variables 
---clr-primary: #6aeeb5;
---clr-primary-hover: #29e6a7;
---clr-gray100: #f0f7f8;
---clr-gray200: #cfd8dc;
-
-border radius 
---radius: 0.2rem;
-
-
-:after {
-    box-sizing: border-box;
-}
-*/
 body {
 font-family: Roboto, sans-serif;
 background-color: #ffffff;
-
 }
 
 .header {
     background-color: #1f2937;
-   
 }
 
 .nav-list {
@@ -38,7 +21,6 @@ background-color: #ffffff;
 .nav-item {
     list-style: none;
     margin-right: 2rem;
-
 }
 
 .nav-item a {
@@ -53,7 +35,6 @@ background-color: #ffffff;
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-
 }
 
 ul {
@@ -144,4 +125,57 @@ border-color: #3882f6;
 .testimonial {
     background-color: #e5e7eb;
     padding: 15%;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    }
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.signup-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-box {
+    padding: 12px;
+    border-radius: 10px;
+    width: 60%;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-top {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.signup-bottom {
+    font-size: 14px;
+    color: #e5e7eb
+}
+
+.signup-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button-bottom {
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: none;
+    background-color:#3882f6
 }
