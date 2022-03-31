@@ -1,6 +1,7 @@
 body {
 font-family: Roboto, sans-serif;
 background-color: #ffffff;
+margin: 0;
 }
 
 .header {
@@ -12,7 +13,6 @@ background-color: #ffffff;
     width: 100%;
     margin: 0;
     padding: 1rem 0;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -27,6 +27,11 @@ background-color: #ffffff;
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    padding: 8px;
+}
+
+.nav-item a:hover {
+    background-color: black;
 }
 
 .nav-item:first-child{
@@ -54,7 +59,7 @@ a {
     background-color: #1f2937;
     display: flex;
     margin: 30px;
-
+    height: 300px;
 }
 
 .hero-left {
@@ -71,7 +76,7 @@ a {
     padding: 10px;
     display: flex;
     width: 50%;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .hero-title {
@@ -91,6 +96,8 @@ a {
     outline: none;
     border-radius: 10px;
     padding: 0.5rem 1rem;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .info {
@@ -115,11 +122,23 @@ a {
     padding: 20px;
     border-radius: 10px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.card img {
+    border: 4px solid #3882f6;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+ 
+}
 .card {
-padding: 5px; 
-border-color: #3882f6;
+    padding: 5px; 
+    border-color: #3882f6;
+    width: 250px;
+    height: 250px;
+    flex-wrap: wrap;
 }
 
 .testimonial {
@@ -173,9 +192,22 @@ border-color: #3882f6;
 }
 
 .signup-button-bottom {
-    padding: 8px;
-    border-radius: 10px;
+    background-color: #3882f6;
+    margin: 2px;
+    border: 2px solid #e5e7eb;
     outline: none;
-    box-shadow: none;
-    background-color:#3882f6
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.copyright {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-weight: bold;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
